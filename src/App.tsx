@@ -14,10 +14,20 @@ function App() {
           }}
         >
           <Link to="/my-page">to Next App</Link>
+          <Link to="/vue-app">to Vue App</Link>
           <Link to="/">Home</Link>
         </nav>
         <Routes>
           <Route path="/my-page" element={<MyPage />} />
+          <Route
+            path="/vue-app"
+            element={
+              <micro-app
+                name="vue-app"
+                url="http://localhost:3002/"
+              ></micro-app>
+            }
+          ></Route>
         </Routes>
       </BrowserRouter>
     </div>
