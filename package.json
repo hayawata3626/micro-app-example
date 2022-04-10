@@ -8,8 +8,7 @@
     "start:root-app": "cd apps/host && npm run start",
     "start:vue-app": "cd apps/vue-app && npm run serve",
     "start:next-app": "cd apps/next-app && npm run dev",
-    "build": "react-scripts build",
-    "build-app": "turbo run build",
+    "build": "turbo run build",
     "lint": "turbo run lint"
   },
   "repository": {
